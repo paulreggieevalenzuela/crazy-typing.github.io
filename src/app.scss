@@ -1,0 +1,72 @@
+.app {
+    background: #222;
+    height: 100vh;
+}
+
+.box {
+    background: #222;
+    box-shadow: 0 0.5em 1em -0.125em rgba(210, 210, 210, 0.1), 0 0px 0 1px rgba(210, 210, 210, 0.02);
+    margin-bottom: 20px;
+}
+
+.character {
+    color: #fff;
+    border: 1px solid rgba(1, 210, 178, 1);
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.character-current {
+    background-color: #09d3ac;
+}
+
+.character-out {
+    color: silver;
+}
+
+html, body {
+    box-sizing: border-box;
+    background: #222;
+}
+
+.title {
+    color: rgb(28, 148, 102);
+    padding: 10px 0 0;
+}
+
+button {
+
+    &.button {
+        background: rgb(28, 148, 102);
+        color: #222;
+        border: #222;
+    }
+
+    &:hover {
+        opacity: 0.6;
+    }
+}
+
+.result-display {
+
+    &.boing {
+        color: rgb(28, 148, 102);
+        animation: 0.4s bulge;
+    }
+}
+
+.timer-display {
+
+    &.--active {
+        color: rgb(28, 148, 102);
+    }
+}
+
+.flex {
+    display: flex;
+}
+
+.field__button {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
